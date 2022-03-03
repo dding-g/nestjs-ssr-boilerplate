@@ -6,3 +6,7 @@
 
 - ts-node 자체는 node 환경에서 typescript가 동작할 수 있도록 해주는 역할을 함.
 - ts-node-dev는 nodemon처럼 파일이 변경될 때 마다 전체 Application이 다시 시작되지 않기 때문에 컴파일 속도가 크게 향상됨.
+
+# TODO
+
+[ ] server side에서 controller로 routeing 시켜주기

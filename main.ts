@@ -3,7 +3,7 @@ import path = require('path');
 
 import { createServer as createViteServer } from 'vite';
 import { NestFactory } from '@nestjs/core';
-import { AppModule } from './src/app.module';
+import { AppModule } from './src/server/app.module';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
